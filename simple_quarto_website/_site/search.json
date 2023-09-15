@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "slides/slides.html#my-first-slide",
+    "href": "slides/slides.html#my-first-slide",
+    "title": "My Slides",
+    "section": "My First Slide",
+    "text": "My First Slide\n\nHi"
+  },
+  {
+    "objectID": "slides/slides.html#image",
+    "href": "slides/slides.html#image",
+    "title": "My Slides",
+    "section": "Image",
+    "text": "Image\n\nFlowers"
+  },
+  {
+    "objectID": "slides/slides.html#citation-and-image",
+    "href": "slides/slides.html#citation-and-image",
+    "title": "My Slides",
+    "section": "Citation and Image",
+    "text": "Citation and Image\n\nNatureRichardson (1998)"
+  },
+  {
+    "objectID": "slides/slides.html#code-folding",
+    "href": "slides/slides.html#code-folding",
+    "title": "My Slides",
+    "section": "Code Folding",
+    "text": "Code Folding\n\n\nCode\nimport matplotlib.pyplot as plt\nx=[1,2,3,4,5]\ny=[3,4,2,5,9]\nplt.plot(x,y)\n\n\n\n\n\n\n\n\n\nRichardson, David M. 1998. “Forestry Trees as Invasive Aliens.” Conservation Biology 12 (1): 18–26."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Header 1\nCurabitur facilisis urna ut risus fermentum tincidunt. Mauris euismod tincidunt tortor quis euismod. Mauris vitae hendrerit tortor, dapibus pulvinar nibh. In pellentesque viverra aliquam. Ut sed iaculis tortor. Nam maximus et nisi at pretium. Phasellus elementum velit vel nisl cursus, nec commodo justo pretium. Mauris posuere porta erat eget interdum. In at hendrerit ex, vel dapibus dolor. Ut consequat odio id ante placerat, vel dictum ligula iaculis. Nulla sit amet ligula eros. Curabitur scelerisque urna non tellus sagittis dictum. Aliquam sit amet metus facilisis, semper libero sit amet, rutrum urna. Aliquam dolor mauris, vestibulum in ante sit amet, pretium iaculis lectus. Vivamus elit tellus, elementum vel libero nec, blandit mollis augue.\n\n\nHeader 2\n\nimport matplotlib.pyplot as plt\nx=[1,2,3,4,5]\ny=[3,4,2,5,9]\nplt.plot(x,y)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#header-2",
+    "href": "index.html#header-2",
+    "title": "simple_quarto_website",
+    "section": "Header 2",
+    "text": "Header 2\n\nVestibulum leo velit\ndignissim non felis eget\nfacilisis consectetur tellus\nDonec sagittis\nlibero et facilisis faucibus\n\n\nHeader 3\n\n\nEtiam in mi scelerisque, aliquam mauris id, interdum turpis. Aliquam neque metus, iaculis et sodales non, interdum id nisi. Donec imperdiet vel erat egestas elementum. Vivamus porttitor, diam vel mattis imperdiet, velit est tempor arcu, eget ullamcorper magna arcu nec erat. Nam consectetur sodales orci sit amet fringilla. Suspendisse potenti. Vivamus in maximus elit. Duis libero mauris, commodo id nisi in, viverra rutrum turpis. Vivamus efficitur, augue ullamcorper pellentesque porttitor, enim nibh ultricies nulla, molestie dapibus est elit nec est. Maecenas bibendum ut ante eget porttitor. Proin blandit aliquet nibh et rhoncus. Maecenas in rutrum nulla, scelerisque ultrices urna.\n\nCurabitur facilisis urna ut risus fermentum tincidunt. Mauris euismod tincidunt tortor quis euismod. Mauris vitae hendrerit tortor, dapibus pulvinar nibh. In pellentesque viverra aliquam. Ut sed iaculis tortor. Nam maximus et nisi at pretium. Phasellus elementum velit vel nisl cursus, nec commodo justo pretium. Mauris posuere porta erat eget interdum. In at hendrerit ex, vel dapibus dolor. Ut consequat odio id ante placerat, vel dictum ligula iaculis. Nulla sit amet ligula eros. Curabitur scelerisque urna non tellus sagittis dictum. Aliquam sit amet metus facilisis, semper libero sit amet, rutrum urna. Aliquam dolor mauris, vestibulum in ante sit amet, pretium iaculis lectus. Vivamus elit tellus, elementum vel libero nec, blandit mollis augue.\n\n\n\n\n\ncookies\nrating\n\n\n\n\nchocolate chip\n8/10\n\n\npeanutbutter\n9/10\n\n\ngingerbread\n5/10\n\n\n\nMaecenas facilisis velit ut sem convallis iaculis.\\(E=m c^2\\) Vestibulum suscipit arcu pulvinar sodales commodo.\nn sed mi ut nibh convallis dapibus ac ac massa. Proin luctus metus in risus tincidunt, sed lacinia nisl tempor. \\[\\hat{H} \\Psi=i \\hbar \\frac{\\partial \\Psi}{\\partial t}\\] Sed sit amet laoreet eros.\nQuisque facilisis arcu quis ex mattis, eu hendrerit tortor rhoncus.1\nHe said\n\n“yerr”\n\n\n\n\nNature\n\n\n\n\n\nFlowers\n\n\n\n\n\n\n\npie title When to use pie chart\n\"Now\": 100\n\"Never\": 0\n\n\n\n\n\nPyšek et al. (2020)\n\nlibrary(ggplot2)\n\nmtcars |&gt; \n  ggplot(aes(x = disp, y = mpg)) +\n  geom_point() +\n  geom_smooth(method = \"loess\", formula = \"y~x\")"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMorbi gravida scelerisque ipsum sed scelerisque.↩︎"
+  }
+]

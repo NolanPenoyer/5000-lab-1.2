@@ -1,0 +1,72 @@
+---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Header 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo nec lacus hendrerit semper. Vestibulum quis congue felis. Vestibulum id risus sit amet est dignissim commodo semper ac justo. Duis porttitor sapien at turpis fermentum, ac sollicitudin lorem mollis. Donec sed nibh sit amet mauris finibus porttitor at et purus. Donec fringilla gravida ullamcorper. Etiam venenatis dolor nulla, eget hendrerit neque euismod sit amet. Proin sollicitudin, massa nec malesuada volutpat, mi enim lacinia ipsum, porta consequat libero ex nec nisl. In hac habitasse platea dictumst. Nullam odio enim, porttitor vel nisl sagittis, sagittis interdum enim. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl libero, pulvinar quis tincidunt eget, feugiat nec lacus. Phasellus tristique, lectus sit amet aliquam ullamcorper, justo mi maximus risus, ut varius urna diam eget nulla.
+
+## Header 2
+* Vestibulum leo velit
+* dignissim non felis eget
+* facilisis consectetur tellus
+* Donec sagittis
+* libero et facilisis faucibus
+
+### Header 3
+
+::: {.columns}
+:::{.column width="50%"}
+Etiam in mi scelerisque, aliquam mauris id, interdum turpis. Aliquam neque metus, iaculis et sodales non, interdum id nisi. Donec imperdiet vel erat egestas elementum. Vivamus porttitor, diam vel mattis imperdiet, velit est tempor arcu, eget ullamcorper magna arcu nec erat. Nam consectetur sodales orci sit amet fringilla. Suspendisse potenti. Vivamus in maximus elit. Duis libero mauris, commodo id nisi in, viverra rutrum turpis. Vivamus efficitur, augue ullamcorper pellentesque porttitor, enim nibh ultricies nulla, molestie dapibus est elit nec est. Maecenas bibendum ut ante eget porttitor. Proin blandit aliquet nibh et rhoncus. Maecenas in rutrum nulla, scelerisque ultrices urna.
+:::
+:::{.column width="50%"}
+Curabitur facilisis urna ut risus fermentum tincidunt. Mauris euismod tincidunt tortor quis euismod. Mauris vitae hendrerit tortor, dapibus pulvinar nibh. In pellentesque viverra aliquam. Ut sed iaculis tortor. Nam maximus et nisi at pretium. Phasellus elementum velit vel nisl cursus, nec commodo justo pretium. Mauris posuere porta erat eget interdum. In at hendrerit ex, vel dapibus dolor. Ut consequat odio id ante placerat, vel dictum ligula iaculis. Nulla sit amet ligula eros. Curabitur scelerisque urna non tellus sagittis dictum. Aliquam sit amet metus facilisis, semper libero sit amet, rutrum urna. Aliquam dolor mauris, vestibulum in ante sit amet, pretium iaculis lectus. Vivamus elit tellus, elementum vel libero nec, blandit mollis augue.
+:::
+:::
+
+| cookies  | rating  |
+|--------|--------|
+| chocolate chip  | 8/10   |
+| peanutbutter   | 9/10   |
+| gingerbread | 5/10   |
+
+Maecenas facilisis velit ut sem convallis iaculis.$E=m c^2$ Vestibulum suscipit arcu pulvinar sodales commodo.
+
+n sed mi ut nibh convallis dapibus ac ac massa. Proin luctus metus in risus tincidunt, sed lacinia nisl tempor. 
+$$\hat{H} \Psi=i \hbar \frac{\partial \Psi}{\partial t}$$
+Sed sit amet laoreet eros.
+
+Quisque facilisis arcu quis ex mattis, eu hendrerit tortor rhoncus.[^1]
+
+[^1]: Morbi gravida scelerisque ipsum sed scelerisque. 
+
+He said
+
+> "yerr"
+
+![Nature](./images/nature.jpg)
+
+![Flowers](./images/flowers.jpg)
+
+{{< video https://youtu.be/zIwh0njInPk?si=EUzHCM7xUwSAmxg3 >}}
+
+```{mermaid}
+pie title When to use pie chart
+"Now": 100
+"Never": 0
+```
+
+@pyvsek2020scientists
+
+```{r}
+
+library(ggplot2)
+
+mtcars |> 
+  ggplot(aes(x = disp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "loess", formula = "y~x")
+```
